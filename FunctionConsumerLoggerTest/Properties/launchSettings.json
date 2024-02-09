@@ -1,0 +1,14 @@
+{
+  "profiles": {
+    "FunctionConsumerLoggerTest": {
+      "commandName": "Project",
+      "commandLineArgs": "--port 7274"
+    },
+    "Container (Dockerfile)": {
+      "commandName": "Docker",
+      "launchUrl": "{Scheme}://{ServiceHost}:{ServicePort}",
+      "httpPort": 33433,
+      "useSSL": false
+    }
+  }
+}

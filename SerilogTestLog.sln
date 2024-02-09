@@ -3,7 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34511.98
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SerilogTestLog", "SerilogTestLog\SerilogTestLog.csproj", "{56951CA4-FC8D-456D-8164-5E9395FB1D95}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SerilogTestLog", "SerilogTestLog\SerilogTestLog.csproj", "{56951CA4-FC8D-456D-8164-5E9395FB1D95}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsumerLoggerTest", "ConsumerLoggerTest\ConsumerLoggerTest.csproj", "{216A14A9-49B6-4948-8776-7DD2F3475BEF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsumerLoggerTestDataBase", "ConsumerLoggerTestDataBase\ConsumerLoggerTestDataBase.csproj", "{91CD97B7-5F20-439B-BC99-6E41BD5839DC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FunctionConsumerLoggerTest", "FunctionConsumerLoggerTest\FunctionConsumerLoggerTest.csproj", "{2CCBA720-D5E1-4678-A4C5-0C1CAD94BF5A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +21,18 @@ Global
 		{56951CA4-FC8D-456D-8164-5E9395FB1D95}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{56951CA4-FC8D-456D-8164-5E9395FB1D95}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{56951CA4-FC8D-456D-8164-5E9395FB1D95}.Release|Any CPU.Build.0 = Release|Any CPU
+		{216A14A9-49B6-4948-8776-7DD2F3475BEF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{216A14A9-49B6-4948-8776-7DD2F3475BEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{216A14A9-49B6-4948-8776-7DD2F3475BEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{216A14A9-49B6-4948-8776-7DD2F3475BEF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{91CD97B7-5F20-439B-BC99-6E41BD5839DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{91CD97B7-5F20-439B-BC99-6E41BD5839DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{91CD97B7-5F20-439B-BC99-6E41BD5839DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{91CD97B7-5F20-439B-BC99-6E41BD5839DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2CCBA720-D5E1-4678-A4C5-0C1CAD94BF5A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2CCBA720-D5E1-4678-A4C5-0C1CAD94BF5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2CCBA720-D5E1-4678-A4C5-0C1CAD94BF5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2CCBA720-D5E1-4678-A4C5-0C1CAD94BF5A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
